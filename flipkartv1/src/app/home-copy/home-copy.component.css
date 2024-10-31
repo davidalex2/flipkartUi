@@ -1,0 +1,135 @@
+.color-white {
+    color: white;
+}
+
+.carousel-caption {
+    color: white;
+}
+
+button {
+    color: white;
+}
+
+.carousel-indicators {
+    color: white;
+}
+
+#dropdownMenuButton2 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px;
+}
+
+#dropdownMenuButton2:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.search {
+    display: flex;
+    width: 60%;
+
+}
+
+.search-input {
+    background-color: rgb(229, 235, 242);
+    padding: 5px;
+    width: 100%;
+
+}
+
+mat-form-field {
+    background-color: rgb(229, 235, 242);
+    padding: 5px;
+    width: 100%;
+
+}
+
+.navbar-nav {
+    justify-content: space-evenly;
+    width: auto;
+    display: flex;
+
+}
+
+.nav-item {
+    justify-content: space-evenly;
+    width: auto;
+    display: flex;
+    margin: 5px 20px;
+}
+
+.d-flex {
+    padding: 10px;
+
+    width: 90%;
+    margin: auto;
+}
+
+.image-container {
+   
+    align-items: center;
+    background-color: rgb(247, 251, 251);
+   
+
+}
+
+.mybanner {
+    margin: 5px 10px;
+    padding: 5px 10px;
+    background-color: azure;
+    height: 100%;
+    
+}
+/* 
+@media(max-width:700px) {
+    .sub-content {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+.best-electronics {
+    background-color: white;
+    margin: 10px;
+    height: fit-content;
+    display: flex;
+}
+
+
+
+
+.sub-content {
+    padding:  10px;
+    font-size: 17px;
+    margin: 10px;
+}
+.dot-menu {
+    color: black;
+}
+.dropdowm-menu{
+    color: black;
+}
+.dropdowm-menu:hover{
+    background-color: royalblue;
+    color: white;
+}
+.dropdowm-item{
+    background-color: white;
+    color: black;
+}
+
+.new-sign{
+padding: 5px;
+text-decoration: none;
+border-bottom: 1px solid grey;
+}
+/* .sub-content{
+    background-color: grey;
+} */
+.card-image{
+    padding: 10px;
+    margin: 10px;
+}
+

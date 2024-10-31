@@ -1,0 +1,32 @@
+<div class="d-flex vertical-align-container categories-container ">
+  <div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <!-- <div *ngIf="imageContainer"> -->
+      <div *ngFor="let image of imageContainer">
+        <div class="image-container">
+          <img class="el-images" mat-card-image src="'assets/img/applience.png"
+            alt="Mountains {{image.name}}" />
+          <p>{{image.name}}</p>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="!imageContainer">
+      <p>No images found.</p>
+    </div>
+  </div>
+</div>
+<!-- <div class="container">
+  <h2>Image List</h2>
+  <div *ngIf="imageContainer.length > 0">
+    <div *ngFor="let image of imageContainer" class="card" style="width: 18rem;">
+      <img [src]="'assets/img/'+image.name " class="card-img-top" alt="Image">
+      <div class="card-body">
+        <h5 class="card-title">{{ image.name }}</h5>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="!imageContainer">
+    <p>No images found.</p>
+  </div> 
+</div>-->
+

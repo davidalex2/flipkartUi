@@ -1,0 +1,40 @@
+.categories{
+    height: 50%;
+    
+    justify-content: center;
+    /* background-color: antiquewhite;  */
+}
+.categories-container{
+    display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.categories span{
+    justify-content: center; 
+}
+img{
+    width:50px;
+    height: 70px;
+    margin: auto;
+    flex-direction: row; 
+}
+.d-flex{
+    padding: auto;
+    margin:  auto;  
+    justify-content: center;
+   display: flex;
+   
+}
+.image-container{
+    justify-content: space-evenly;
+    padding: 10px auto;
+    align-items: center;
+    background-color: rgb(247, 251, 251);
+    border:2px;
+}
+
+
+

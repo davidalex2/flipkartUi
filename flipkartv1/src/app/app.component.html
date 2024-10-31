@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+
+    <img src="../../assets/img/flipkart-logo-39906.png" alt="Logo" class="d-inline-block align-top" width="150"
+      height="150">
+
+
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <div class="search">
+
+
+        <input class="form-control" placeholder="Search for products">
+
+
+      </div>
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <button mat-button [matMenuTriggerFor]="menu" class="dropdowm-menu"> <i class="fa fa-user-circle"
+              aria-hidden="true"></i>Login</button>
+          <mat-menu #menu="matMenu">
+            <div mat-menu-item class="dropdowm-item"><a class="new-sign" style="color: black;"> New Customer</a><a
+                class="new-sign" routerLink="/login" routerLinkActive="active">Sign-up</a></div>
+            <a mat-menu-item class="dropdowm-item" routerLink="/profile" routerLinkActive="active"><i
+                class="fa fa-user-circle"></i> My profile</a>
+            <a mat-menu-item class="dropdowm-item"> <i class="fas fa-jedi-order"></i>Orders</a>
+            <a mat-menu-item class="dropdowm-item"><i class="fa fa-heart" aria-hidden="true"></i> Wishlist</a>
+          </mat-menu>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"> <i class="fa fa-cart-plus"
+              aria-hidden="true"></i>Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Become a
+            Seller</a>
+        </li>
+
+        <li class="nav-item">
+          <button mat-icon-button [matMenuTriggerFor]="menu" class="dot-menu"
+            aria-label="Example icon-button with a menu">
+            <mat-icon>more_vert</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <mat-icon>dialpad</mat-icon>
+              <span>Redial</span>
+            </button>
+            <button mat-menu-item>
+              <mat-icon>voicemail</mat-icon>
+              <span>Check voice mail</span>
+            </button>
+            <button mat-menu-item>
+              <mat-icon>notifications_off</mat-icon>
+              <span>Disable alerts</span>
+            </button>
+          </mat-menu>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<router-outlet></router-outlet>

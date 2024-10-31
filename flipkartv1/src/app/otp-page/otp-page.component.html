@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div class="login-content">
+            <div class="login-text">
+                <h4>Login</h4>
+                <p>Get access to your orders</p>
+            </div>
+            <img src="../../assets/img/electronics.png">
+
+
+        </div>
+        <div class="login-form">
+            <form [formGroup]="loginForm" onsubmit="onSubmit()" class="example-form">
+
+                <div class="example-full-width">
+
+                    <input formControlName="email" placeholder="Enter mail or mobile number" required>
+                    <span *ngIf="!mail?.valid && mail?.touched">
+                        <p *ngIf="!mail?.errors?.['requied'];" class="text-danger">Enter the email or mobile number</p>
+                    </span>
+                   
+
+                   
+                </div>
+                <div>
+                    <p>By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+                    
+
+                    
+                </div>
+                <div>
+                    <button [disabled]="!loginForm.valid"> Request For OTP</button>
+
+                </div>
+
+
+            </form>
+            <div class="new-custom ">
+                <a>New to Flipkart?Create an account</a>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
+</body>
+</html>

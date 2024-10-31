@@ -1,0 +1,34 @@
+
+.dot-menu {
+    color: black;
+}
+.dropdowm-menu{
+    color: black;
+}
+.dropdowm-menu:hover{
+    background-color: royalblue;
+    color: white;
+}
+.dropdowm-item{
+    background-color: white;
+    color: black;
+}
+.new-btn{
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.main-page{
+    display:  flex;
+    justify-content: space-between;
+    margin: 10px;
+    height: 50px;
+    width: 100%;
+}
+.serach-input{
+    height: 40px;
+}
+nav{
+    height: 10px;
+    width: 100%;
+}
